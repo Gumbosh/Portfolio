@@ -14,7 +14,7 @@ export default {
         grotesk: ["'Schibsted Grotesk', sans-serif, monospace"],
       },
       backgroundImage: {
-        hero: "url('./src/assets/images/header-bg.png')",
+        hero: "url('/src/assets/images/header-bg.png')",
       },
       colors: {
         "custom-white": "#F1F1EF",
