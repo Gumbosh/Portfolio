@@ -16,7 +16,7 @@ const ProjectCard = ({
     <motion.article
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
-      transition={{ duration: 2 }}
+      transition={{ duration: 1.5 }}
       viewport={{ once: true, amount: 0.4 }}
       className={`flex ${alignSelf} lg:self-center flex-col gap-2 md:gap-4 w-[550px] md:w-[500px] sm:w-full rounded-3xl bg-custom-dark-grey px-8 py-4 border border-custom-white border-opacity-5`}
     >
