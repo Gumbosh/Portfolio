@@ -4,12 +4,12 @@ import cvPhoto from "../assets/images/cv-photo.png";
 
 const HeroSection = () => {
   return (
-    <section className="h-screen bg-hero bg-center bg-cover flex items-center justify-center px-10 sm:px-6">
+    <section className="h-screen bg-hero bg-center bg-cover pt-28 px-10 sm:px-6">
       <motion.article
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1, delay: 1 }}
-        className="border border-custom-white border-opacity-5 bg-custom-dark-grey w-full max-w-[1440px] py-20 px-16 md:py-10 lg:px-6 xs:px-2 rounded-3xl flex flex-col justify-between gap-10"
+        className="border border-custom-white border-opacity-5 bg-custom-dark-grey w-full m-auto max-w-[1440px] py-20 px-16 md:py-10 lg:px-6 xs:px-2 rounded-3xl flex flex-col justify-between gap-10"
       >
         <div className="flex md:flex-col md:text-center items-center justify-between">
           <div className="flex flex-col gap-4">
