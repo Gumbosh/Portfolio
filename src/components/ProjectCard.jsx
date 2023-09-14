@@ -6,6 +6,7 @@ const ProjectCard = ({
   title,
   icons,
   image,
+  alt,
   description,
   demo,
   git,
@@ -26,7 +27,7 @@ const ProjectCard = ({
         </h4>
         <IconListSmall icons={icons} />
       </div>
-      <img src={image} className="rounded-2xl" />
+      <img src={image} alt={alt} className="rounded-2xl" />
       <p className="text-custom-light-grey sm:text-sm">{description}</p>
       <a
         target="_blank"

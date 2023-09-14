@@ -27,6 +27,7 @@ const ProjectsSection = () => {
           <i className="devicon-tailwindcss-plain colored"></i>,
         ]}
         image={fakeShopImage}
+        alt="fake shop project showcase photo"
         description="Fake Shop - a dummy e-commerce website that features items fetched
     from fakestoreapi.com, user-friendly navigation, search bar and
     functional cart for a realistic shopping experience."
@@ -41,6 +42,7 @@ const ProjectsSection = () => {
           <i className="devicon-sass-original colored"></i>,
         ]}
         image={instagramFrontpageImage}
+        alt="instagram frontpage project showcase photo"
         description=" Instagram FrontPage is a simple Instagram main page clone built
     with HTML and SCSS."
         demo="https://gw-instagram-frontpage.netlify.app/"
