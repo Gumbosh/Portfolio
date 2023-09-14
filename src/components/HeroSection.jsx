@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import IconListBig from "./IconListBig";
+import cvPhoto from "../assets/images/cv-photo.png";
 
 const HeroSection = () => {
   return (
@@ -35,7 +36,11 @@ const HeroSection = () => {
               </li>
             </ul>
           </div>
-          <div className="w-[300px] h-[300px] xl:w-[250px] xl:h-[250px] lg:w-[200px] lg:h-[200px] sm:h-[150px] sm:w-[150px] xs:h-[120px] xs:w-[120px] bg-custom-white bg-cv-photo bg-center bg-contain rounded-full border border-custom-white border-opacity-10"></div>
+          <img
+            src={cvPhoto}
+            alt="cv photo"
+            className="w-[300px] h-[300px] xl:w-[250px] xl:h-[250px] lg:w-[200px] lg:h-[200px] sm:h-[150px] sm:w-[150px] xs:h-[120px] xs:w-[120px] object-contain bg-custom-white rounded-full border border-custom-white border-opacity-10"
+          ></img>
         </div>
         <div>
           <IconListBig

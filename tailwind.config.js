@@ -15,7 +15,6 @@ export default {
       },
       backgroundImage: {
         hero: "url('./src/assets/images/header-bg.png')",
-        "cv-photo": "url(./src/assets/images/cv-photo.png)",
       },
       colors: {
         "custom-white": "#F1F1EF",
