@@ -1,3 +1,5 @@
+import CV from "../assets/documents/CV-Grzegorz-Wrzosek.pdf";
+
 const Navbar = () => {
   const scrollToTop = () => {
     window.scrollTo({
@@ -14,7 +16,8 @@ const Navbar = () => {
         GW
       </button>
       <a
-        href="#"
+        href={CV}
+        download="CV-Grzegorz-Wrzosek.pdf"
         className="bg-custom-white text-custom-dark-grey font-bold px-6 md:px-4 py-2 md:py-1 rounded-xl"
       >
         Resume
